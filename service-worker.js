@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/8591777904abhinav.github.io/CORONAVIRUS-TRACKER/precache-manifest.3499fa66e472dd4bc42fec884b5a367f.js"
+  "/CORONAVIRUS-TRACKER/precache-manifest.504ea63123c94a52993b0c080cb8f83c.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/8591777904abhinav.github.io/CORONAVIRUS-TRACKER/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/CORONAVIRUS-TRACKER/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
